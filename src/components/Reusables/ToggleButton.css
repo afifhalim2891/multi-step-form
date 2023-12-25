@@ -1,0 +1,15 @@
+.toggle-button {
+  @apply bg-marineBlue h-[30px] w-[60px] rounded-full p-1 flex items-center;
+}
+
+.inside-toggle {
+  @apply h-[22px] w-[22px] bg-slate-100 rounded-full;
+}
+
+.toggled-right {
+  @apply translate-x-7 transition-all duration-200;
+}
+
+.toggled-left {
+  @apply translate-x-0 transition-all duration-200;
+}
